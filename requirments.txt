@@ -1,10 +1,5 @@
-asgiref==3.4.1
-click==8.0.2
 Django==3.2.8
-importlib-metadata==4.8.1
-Pillow==8.3.2
 pytz==2021.3
 sqlparse==0.4.2
-svgwrite==1.4.1
-typing-extensions==3.10.0.2
-zipp==3.6.0
+Pillow==2.6.1
+
