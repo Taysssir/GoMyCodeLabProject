@@ -4,7 +4,7 @@ pipeline {
         stage('Build Image ') {
             steps {
                 echo 'List all images' 
-                sh 'docker image ls'
+                //sh 'docker image ls'
                 //sh 'docker build -t docker-django-v0.0 .'
                 echo 'Try run image'
                 sh 'docker build -t 8a80db88f2a28d048df1b5b34d8e1dfb5fbbf20d:latest .'
