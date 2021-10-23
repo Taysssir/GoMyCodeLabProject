@@ -1,6 +1,13 @@
 pipeline {
-    agent any
-    
+    agent {
+        docker {
+            label 'service'
+            alwaysPull false
+            registryUrl "https://hub.docker.com/repository/docker"
+            registryCredentialsId "tayssirboubaker"
+            image 'tayssirboubaker/docker-django-v0.0:latest'
+            args '-v /var/run/docker.sock:/var/run/docker.sock --network host'
+        }    
     stages{
         stage ("cloning") {
             steps{
