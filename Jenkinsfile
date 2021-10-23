@@ -24,7 +24,7 @@ pipeline {
           stage ("Test"){
             steps{
                 echo "verify"
-                sh 'pip install curl'
+                sh 'apt-get install curl'
                 sh "curl http://127.0.0.1:8000" 
             }
         }
