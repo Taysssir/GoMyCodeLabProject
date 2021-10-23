@@ -11,7 +11,7 @@ ENV PYTHONUNBUFFERED 1
 
 RUN apk add --update --no-cache --virtual .tmp gcc libc-dev linux-headers
 RUN apk add --no-cache jpeg-dev zlib-dev
-    
+RUN apk add  curl    
 
 COPY ./requirments.txt /usr/src/app
 RUN pip install -r requirments.txt
