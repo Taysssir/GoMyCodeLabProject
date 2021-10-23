@@ -14,7 +14,7 @@ The main Goal/Reason for choosing which tool for every DevOps phase is to famili
 | ------------- | -------------|-------------|------------- | ------------- |
 | **Continuous Development**  | Version Control |  GIT  | The most commonly used VC + tracked changes  | 2 Days  |
 | **Continuous Testing**      | Django | django.test  | + Selinum For TEST AUTO  |
-| **Continuous Integration**  |  Gitlab CI  || Learn & Practise New Tool which i can use frequently on my job  |   |
+| **Continuous Integration**  |  Jenkins  || GITLAB CI Pipeline is NOT Free Now  |  4h |
 | **Continuous Deployment**	  | Configuration Management  | Ansible  |  Simple IT automation and familiarise with Tool   |
 |                             | Containerization  | Docker  | Create and Use containers for Test and Deployment Test   | 3H  |
 |                             | Orchestration  | Kubernetes  | The most commonly used and performed Tool   |
@@ -44,4 +44,10 @@ $ docker inspect id_container
 ```
 
 * **URL APP** : http://<ip>:8000/
+
+ ### Continuous Integration : Jenkins :
+ 
+ We create our JenkinsFile To Run our image and Test it with Curl : 
+ 
+ ![Jenkins_stages](https://user-images.githubusercontent.com/15168128/138564547-783ce4f9-0392-4174-9366-213f7b71f2cc.png)
 
