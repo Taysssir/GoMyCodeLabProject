@@ -24,7 +24,7 @@ pipeline {
           stage ("Test"){
             steps{
                 echo "verify"
-                sh "curl http://127.0.0.1:8000" 
+                sh "curl http://0.0.0.0:8000" 
             }
         }
     }
