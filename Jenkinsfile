@@ -24,8 +24,8 @@ pipeline {
           stage ("Test"){
             steps{
                 echo "verify"
-                sh 'ifconfig'
-                //sh "curl http://0.0.0.0:8000" 
+                //sh 'ifconfig'
+                sh "curl http://172.17.0.2:8000" 
             }
         }
     }
