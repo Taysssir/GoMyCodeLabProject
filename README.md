@@ -51,3 +51,53 @@ $ docker inspect id_container
  
  ![Jenkins_stages](https://user-images.githubusercontent.com/15168128/138564547-783ce4f9-0392-4174-9366-213f7b71f2cc.png)
 
+### Continuous Testing : Coverage
+
+Install Coverage :
+
+```
+$ pip install coverage
+
+```
+
+
+Check Version :
+
+```
+
+$ coverage --v
+
+```
+
+
+in this case we use : coverage version 6.0.2 with C extension
+
+Run Test Coverage
+
+```
+
+$ coverage run manage.py test
+
+```
+
+
+**Generate Report Test with Coverage :
+
+```
+
+$ coverage report
+
+```
+
+
+Generae HTML Report Coverage Test :
+
+```
+
+$ coverage html
+
+```
+
+It will generate New Folder called htmlcov and when we open index.html we got the first generating report results :
+
+

@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-klz7w18y^d#pv5c@vp3(#nw0$wxoe=hq0w*cvu2z=upc*#l-$8
 DEBUG = False
 
 # ALLOW HOSTS FOR CONTAINER 
-ALLOWED_HOSTS = ['172.17.0.2']
+ALLOWED_HOSTS = ['172.17.0.2','0.0.0.0']
 
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # During development only
