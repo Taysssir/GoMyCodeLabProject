@@ -13,7 +13,7 @@ The main Goal/Reason for choosing which tool for every DevOps phase is to famili
 | PHASE   | TOOL || RAISON  | DUE TIME  |
 | ------------- | -------------|-------------|------------- | ------------- |
 | **Continuous Development**  | Version Control |  GIT  | The most commonly used VC + tracked changes  | 2 Days  |
-| **Continuous Testing**      | Django | django.test  | + Selinum For TEST AUTO  |
+| **Continuous Testing**      | Django | django.test  | + Selinum For TEST AUTO  |  4h |
 | **Continuous Integration**  |  Jenkins  || GITLAB CI Pipeline is NOT Free Now  |  4h |
 | **Continuous Deployment**	  | Configuration Management  | Ansible  |  Simple IT automation and familiarise with Tool   |
 |                             | Containerization  | Docker  | Create and Use containers for Test and Deployment Test   | 3H  |
