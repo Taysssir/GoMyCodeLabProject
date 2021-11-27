@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: django-app-deployment
+  labels:
+    app: django-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: django-app
+  template:
+    metadata:
+      labels:
+        app: django-app
+    spec:
+      containers:
+      - name: django-app
+        env: 
+          - name: DJANGO_TOKEN
+            valueFrom:
+              secretKeyRef:
+                name: django-secret
+                key: token
+        image: tayssirboubaker/docker-django-v0.0:latest
+        ports:
+        - containerPort: 8000
