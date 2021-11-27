@@ -17,7 +17,7 @@ The main Goal/Reason for choosing which tool for every DevOps phase is to famili
 | **Continuous Integration**  |  Jenkins  || GITLAB CI Pipeline is NOT Free Now  |  4h |
 | **Continuous Deployment**	  | Configuration Management  | Ansible  |  Simple IT automation and familiarise with Tool   |
 |                             | Containerization  | Docker  | Create and Use containers for Test and Deployment Test   | 3H  |
-|                             | Orchestration  | Kubernetes  | The most commonly used and performed Tool   |
+|                             | Orchestration  | Kubernetes  | The most commonly used and performed Tool   | 2 Days  |
 | **Continuous Monitoring**	  | Prometheus + Grafana (Visualisation)  || Open Source  and familiarise with Tool  |    |
 
 ------------------------------------------------------------------------------
